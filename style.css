@@ -1,0 +1,81 @@
+body {
+  color:rgb(43, 69, 121);
+  background-color: blanchedalmond;
+}
+
+h1 {
+  .lugrasimo-regular {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 500;
+    font-style: normal }
+    letter-spacing: 2px;
+}
+p{
+  text-align: center;
+}
+h2 {
+  color: rgb(25, 106, 61);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:smaller;
+}
+a:hover {
+  text-color:rgb(60, 138, 138);
+}
+.img-circle {
+  border-radius: 30%;
+}
+div {
+  background: rgb(237, 240, 206);
+  padding: 20px;
+  margin: 10px;
+  display: block;
+}
+.card-white {
+#links > li > a {
+  color:rgb(43, 69, 121);
+  text-align: center;
+}
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#introduction {
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+#bio {
+  color:rgb(43, 69, 121);
+}
+#my-name {
+  padding: 10px;
+}
+.container {
+  padding: 30px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+#links {
+  text-align: center;
+}
+ul {
+  padding-inline-start: 0px;
+}
+@media (max-width: 400px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
